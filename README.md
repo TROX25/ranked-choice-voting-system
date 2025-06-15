@@ -51,6 +51,8 @@ find_min()    // Finds the fewest number of votes
 is_tie()      // Checks for a tie between remaining candidates
 eliminate()   // Eliminates candidate(s) with the fewest votes
 
+---
+
 ## ⚙️ How to compile
 clang -o runoff runoff.c -lcs50
 ./runoff Alice Bob Charlie
